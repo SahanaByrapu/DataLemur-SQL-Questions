@@ -1,0 +1,2 @@
+--FAANG Stock Min-Max (Part 1)
+--https://datalemur.com/questions/sql-bloomberg-stock-min-max-1

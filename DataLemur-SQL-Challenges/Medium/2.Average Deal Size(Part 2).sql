@@ -1,0 +1,1 @@
+--https://datalemur.com/questions/sql-average-deal-size-2

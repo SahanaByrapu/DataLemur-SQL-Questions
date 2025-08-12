@@ -1,0 +1,2 @@
+-- NPV-queries
+-- https://leetcode.com/problems/npv-queries/description/

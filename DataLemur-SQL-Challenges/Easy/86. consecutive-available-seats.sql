@@ -1,0 +1,2 @@
+-- consecutive-available-seats
+-- https://leetcode.com/problems/consecutive-available-seats/description/

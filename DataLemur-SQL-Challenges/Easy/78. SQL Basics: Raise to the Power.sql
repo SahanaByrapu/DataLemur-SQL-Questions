@@ -1,0 +1,2 @@
+-- SQL Basics: Raise to the Power
+--https://leetcode.com/problems/npv-queries/description/

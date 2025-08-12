@@ -1,0 +1,2 @@
+-- sales-analysis-i
+-- https://leetcode.com/problems/sales-analysis-i/description/
