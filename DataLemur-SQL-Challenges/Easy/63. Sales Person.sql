@@ -1,2 +1,12 @@
 -- Sales Person
 -- https://leetcode.com/problems/sales-person/description/
+
+SELECT s.name
+FROM SalesPerson s
+WHERE NOT EXISTS ( 
+ SELECT 1 
+ FROM Orders o
+ JOIN Company c 
+ ON o.com_id=c.com_id
+ WHERE o.sales_id = s.sales_id 
+ AND LOWER(c.name)="RED" );
