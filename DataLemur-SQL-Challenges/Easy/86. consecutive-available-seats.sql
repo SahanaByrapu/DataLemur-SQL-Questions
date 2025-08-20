@@ -1,7 +1,10 @@
 -- consecutive-available-seats
 -- https://leetcode.com/problems/consecutive-available-seats/description/
 
-SELECT seat_id
-FROM Seats 
-GROUP BY seat_id
-HAVING COUNT(*) >= 2 AND free=1
+SELECT DISTINCT c1.seat_id
+FROM Cinema c1
+JOIN Cinema c2
+  ON ABS(c1.seat_id - c2.seat_id) = 1
+ AND c1.free = 1
+ AND c2.free = 1
+ORDER BY c1.seat_id;
